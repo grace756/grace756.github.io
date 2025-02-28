@@ -18,6 +18,8 @@ body {
 
 .about {
   border: solid 1px red;
+  color: rgb(103, 175, 175);
+
 }
 
 .btn-header {
@@ -40,4 +42,5 @@ body {
   padding: 10px;
   color: rgb(80, 179, 179);
   border: solid 1px red;
+  text-shadow: 2px 2px #5f7689;
 }
