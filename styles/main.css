@@ -44,9 +44,3 @@ body {
   border: solid 1px red;
   text-shadow: 2px 2px #5f7689;
 }
-
-.img {
-  border-style: inset;
-  border-radius: 5px;
-  border-bottom: #5f7689;
-}
