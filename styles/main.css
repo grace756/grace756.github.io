@@ -1,5 +1,7 @@
-body {
-  background-color: rgba(177, 221, 221, 0.911);
+@media (max-width: 600px) {
+  body {
+    background-color: rgba(177, 221, 221, 0.911);
+  }
 }
 
 .header {
