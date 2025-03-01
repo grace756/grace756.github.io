@@ -1,3 +1,4 @@
+/* Base styles (applies to widescreens by default) */
 body {
   padding: 0;
   margin: 0;
@@ -8,7 +9,7 @@ header {
   background-color: #232323;
   padding: 25px;
   color: #cacaca;
-  font-family: Merriweather, Georgia, 'Times New Roman', Times, serif
+  font-family: Merriweather, Georgia, 'Times New Roman', Times, serif;
 }
 
 .header-title {
@@ -80,8 +81,95 @@ main article p img {
 }
 
 /* Footer Styling */
-
 footer {
   text-align: center;
   font-family: 'Merriweather', 'Times New Roman', Times, serif;
+}
+
+
+/* Media Queries */
+
+/* Phones (max-width: 400px) */
+@media only screen and (max-width: 400px) {
+  header {
+    padding: 15px;
+  }
+
+  .header-title {
+    margin: 30px 5px;
+    font-size: 1.5rem;
+  }
+
+  .header-links a {
+    padding: 3px 10px;
+    margin: 0 5px;
+  }
+
+  main {
+    padding: 0.5rem;
+  }
+
+  main article {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  main article h2 {
+    font-size: 1rem;
+  }
+
+  main article p,
+  main article li {
+    font-size: 1rem;
+  }
+
+  main article p img {
+    width: 100px;
+  }
+}
+
+/* Tablets (min-width: 401px) and (max-width: 920px) */
+@media only screen and (min-width: 401px) and (max-width: 920px) {
+  header {
+    padding: 20px;
+  }
+
+  .header-title {
+    margin: 40px 8px;
+    font-size: 1.8rem;
+  }
+
+  .header-links a {
+    padding: 4px 12px;
+    margin: 0 8px;
+  }
+
+  main {
+    padding: 0.8rem;
+  }
+
+  main article {
+    margin: 0.8rem;
+    padding: 0.8rem;
+  }
+
+  main article h2 {
+    font-size: 1.1rem;
+  }
+
+  main article p,
+  main article li {
+    font-size: 1.05rem;
+  }
+
+  main article p img {
+    width: 130px;
+  }
+}
+
+/* Widescreens (min-width: 921px) */
+/* No changes required if your base styles suit larger screens. 
+   You can add extra rules here if needed. */
+@media only screen and (min-width: 921px) {
+  /* Additional layout rules for widescreens, if any */
 }
