@@ -1,48 +1,71 @@
-@media (max-width: 600px) {
-  body {
-    background-color: rgba(177, 221, 221, 0.911);
-  }
+body {
+  padding: 0;
+  margin: 0;
 }
 
-.header {
-  /* height: 100px; */
-  background-color: rgba(177, 221, 221, 0.911);
-  text-align: middle;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: #5f7689;
-  font-size: 20px;
+/* Header section */
+header {
+  background-color: #232323;
+  padding: 1rem;
+  color: #cacaca;
+  font-family: Merriweather, Georgia, 'Times New Roman', Times, serif
+}
+
+.header-title {
+  font-size: 2rem;
 }
 
 .header-links {
   text-align: center;
 }
 
-.about {
-  border: solid 1px red;
-  color: rgb(103, 175, 175);
-
-}
-
-.btn-header {
-  color: #ffffff;
-  display: inline-block;
-  background-color: rgb(90 98 207);
-  padding: 4px 16px;
-  font-size: 20px;
+.header-links a {
+  color: #cacaca;
+  font-weight: 800;
+  background-color: darkgreen;
+  padding: 5px 15px;
+  border-radius: 4px;
   text-decoration: none;
-  border-radius: 3px;
-  border: solid 1px #5f7689;
-  text-align: center;
-  margin: 12px;
-  padding-top: 4px;
+  margin: 0 10px;
 }
 
-.header .middle {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 2em;
-  padding: 10px;
-  color: rgb(80, 179, 179);
-  border: solid 1px red;
-  text-shadow: 2px 2px #5f7689;
+.header-links a:hover {
+  background-color: green;
 }
+
+.header-links a.selected {
+  background-color: #aaaaaa;
+  cursor: not-allowed;
+}
+
+/* Main Section */
+main {
+  padding: 1rem;
+}
+
+main article {
+  background-color: #cacaca;
+  color: #232323;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+main article h2 {
+  font-family: Merriweather, Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+main article p,
+main article li {
+  font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+
+/* Article Styling */
+
+
+/* Footer Styling */
