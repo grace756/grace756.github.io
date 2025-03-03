@@ -28,23 +28,7 @@ header {
   flex-wrap: wrap;
 }
 
-.hs-links {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 
-}
-
-.hs-links {
-  color: #cacaca;
-  font-weight: 800;
-  background-color: #750068;
-  padding: 5px 15px;
-  border-radius: 4px;
-  text-decoration: none;
-  margin: 10px 10px;
-
-}
 
 .header-links a {
   color: #cacaca;
@@ -64,6 +48,12 @@ header {
   background-color: #7c3087;
   cursor: not-allowed;
 }
+
+.hs-links {
+  margin: 10px;
+  padding: 10px;
+}
+
 
 /* Main Section */
 main {
