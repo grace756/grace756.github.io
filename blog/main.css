@@ -98,6 +98,11 @@ footer {
 
 /* Media Queries */
 
+
+img {
+  width: 300;
+}
+
 /* Phones (max-width: 400px) */
 @media only screen and (max-width: 400px) {
   header {
