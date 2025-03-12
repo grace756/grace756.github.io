@@ -98,10 +98,11 @@ footer {
 
 /* Media Queries */
 
-
-img {
-  width: 300;
-  height: auto;
+@media screen and (max-width: 600px) {
+  img {
+    width: 300;
+    height: auto;
+  }
 }
 
 /* Phones (max-width: 400px) */
